@@ -1,7 +1,8 @@
 UIApplicationStatusBarDidTouchNotification
 =========
 
-adds UIApplicationStatusBarDidTouchNotification. Did you ever wanted to implement some custom functionality then statysbar is touched?
+adds UIApplicationStatusBarDidTouchNotification. 
+Did you ever wanted to implement some custom functionality if status bar is touched? Maybe just scroll UITableView to top without UITableViewController?
 
 Requirements
 ----------
