@@ -16,6 +16,6 @@ How To Use It
     [[UIApplication sharedApplication] registerForStatusBarTouchNotifications];
     
     [[NSNotificationCenter defaultCenter] addObserver: self
-                                             selector: @selector(test)
+                                             selector: @selector(applicationStatusBarDidTouchNotification:)
                                                  name: UIApplicationStatusBarDidTouchNotification
                                                object: nil];
