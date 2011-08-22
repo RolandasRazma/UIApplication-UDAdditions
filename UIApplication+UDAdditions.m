@@ -12,10 +12,11 @@
 
 NSString *const UIApplicationStatusBarDidTouchNotification = @"UIApplicationStatusBarDidTouchNotification";
 
-static BOOL isRegisterForStatusBarTouchNotifications = NO;
-
 
 @implementation UIApplication (UDAdditions)
+
+
+static BOOL isRegisterForStatusBarTouchNotifications = NO;
 
 
 - (void)ud_sendEvent:(UIEvent *)event {
