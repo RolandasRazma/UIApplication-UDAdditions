@@ -1,5 +1,5 @@
 //
-//  UIApplication+UDAdditions.h
+//  UIApplication+UIStatusBar.h
 //
 //  Created by Rolandas Razma on 1/8/11.
 //  Copyright 2011 UD7. All rights reserved.
@@ -11,7 +11,7 @@
 NSString *const UIApplicationStatusBarDidTouchNotification;
 
 
-@interface UIApplication (UDAdditions)
+@interface UIApplication (UIStatusBar)
 
 - (void)registerForStatusBarTouchNotifications;
 - (void)unRegisterForStatusBarTouchNotifications;

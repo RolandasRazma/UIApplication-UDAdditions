@@ -1,11 +1,11 @@
 //
-//  UIApplication+UDAdditions.m
+//  UIApplication+UIStatusBar.m
 //
 //  Created by Rolandas Razma on 1/8/11.
 //  Copyright 2011 UD7. All rights reserved.
 //
 
-#import "UIApplication+UDAdditions.h"
+#import "UIApplication+UIStatusBar.h"
 #import <objc/runtime.h> 
 #import <objc/message.h>
 
@@ -13,7 +13,7 @@
 NSString *const UIApplicationStatusBarDidTouchNotification = @"UIApplicationStatusBarDidTouchNotification";
 
 
-@implementation UIApplication (UDAdditions)
+@implementation UIApplication (UIStatusBar)
 
 
 static BOOL isRegisterForStatusBarTouchNotifications = NO;

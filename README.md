@@ -10,7 +10,7 @@ iOS 3.0+
 
 How To Use It
 -------------
-    #import "UIApplication+UDAdditions.h"
+    #import "UIApplication+UIStatusBar.h"
     ...
 
     [[UIApplication sharedApplication] registerForStatusBarTouchNotifications];
